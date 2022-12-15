@@ -141,5 +141,36 @@ grep -n -e  Prupe.6G364900 -e Prupe.1G531100 -e Prupe.1G531400 -e Prupe.1G549600
 
 ## Now Salmon!
 
+```
+#!/bin/bash
+#SBATCH -J salmonTA
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH -A ISAAC-UTK0208
+#SBATCH -p condo-epp622
+#SBATCH -q condo
+#SBATCH -t 00:20:00
+#SBATCH --mem-per-cpu=4G
+#SBATCH --array=1-3
+
+readonefile=$(sed -n -e "${SLURM_ARRAY_TASK_ID} p" filenames.txt)
+echo "readonefile is $readonefile"
+readtwofile=$(echo $readonefile | sed 's/_1.fastq/_2.fastq/')
+echo "readtwofile is $readtwofile"
+quantdir=$(echo $readonefile | sed 's/_1.fastq/_quant/')
+echo "quantdir is $quantdir"
+
+time \
+/lustre/isaac/proj/UTK0208/rnaseq/software/salmon-1.9.0_linux_x86_64/bin/salmon \
+quant \
+-i ../../../raw_data/salmon_transcripts_index \
+-l IU \
+-1 $readonefile \
+-2 $readtwofile \
+--validateMappings \
+-o $quantdir \
+--threads 4
+
+```
 
 
