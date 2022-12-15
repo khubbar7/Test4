@@ -92,11 +92,11 @@ squeue -u khubbar7
 | Badami_LB_800CH_Clone15      | 23354376 |
 | Badami_LB_800CH_Clone16      | 23243567 |
 | Bergeron_LB_400CH_Clone10    | 19242671 |
-| Bergeron_LB_400CH_Clone8     |
-| Bergeron_LB_400CH_Clone9     |
-| Bergeron_LB_800CH_Clone10    |
-| Bergeron_LB_800CH_Clone8     |
-| Bergeron_LB_800CH_Clone9     |
+| Bergeron_LB_400CH_Clone8     | 20217335 |
+| Bergeron_LB_400CH_Clone9     | 19858725 |
+| Bergeron_LB_800CH_Clone10    | 21645036 |
+| Bergeron_LB_800CH_Clone8     | 20054302 |
+| Bergeron_LB_800CH_Clone9     | 21650013 |
 
 ##STAR								
 |    	NAME                 | Uniquely mapped reads %	| % of reads mapped to multiple loci	| % of reads mapped to too many loci	| % of reads unmapped: too many mismatches	| % of reads unmapped: too short	| % of reads unmapped: other	| % of chimeric reads |	
