@@ -112,9 +112,35 @@ Bergeron_LB_400CH_Clone8	 | 0.00 | 0.90 | 0.44 | 0.00 | 96.32 | 2.35 | 0.00 |
 Bergeron_LB_400CH_Clone9	 |	0.00 | 1.00 | 0.52 | 0.00 | 94.40 | 4.07 | 0.00 | 			
 Bergeron_LB_800CH_Clone10	 | 0.00 | 1.59 | 0.77 | 0.00 | 91.82 | 5.82 | 0.00 |
 Bergeron_LB_800CH_Clone8	 | 0.00 | 0.97 | 0.49 | 0.00 | 97.97 | 0.65 | 0.00 | 		
-Bergeron_LB_800CH_Clone9	 |	0.00 | 1.11 | 0.69 | 0.00 | 94.49 | 3.71 | 0.00 |				
+Bergeron_LB_800CH_Clone9	 |	0.00 | 1.11 | 0.69 | 0.00 | 94.49 | 3.71 | 0.00 |		
+
+```
+grep -n -e  Prupe.6G364900 -e Prupe.1G531100 -e Prupe.1G531400 -e Prupe.1G549600 Badami_LB_400CH_Clone14.fastqReadsPerGene.out.tab ; grep -n -e  Prupe.6G364900 -e Prupe.1G531100 -e Prupe.1G531400 -e Prupe.1G549600 Badami_LB_400CH_Clone15.fastqReadsPerGene.out.tab ; grep -n -e  Prupe.6G364900 -e Prupe.1G531100 -e Prupe.1G531400 -e Prupe.1G549600 Badami_LB_400CH_Clone16.fastqReadsPerGene.out.tab ; grep -n -e  Prupe.6G364900 -e Prupe.1G531100 -e Prupe.1G531400 -e Prupe.1G549600 Badami_LB_800CH_Clone14.fastqReadsPerGene.out.tab ; grep -n -e  Prupe.6G364900 -e Prupe.1G531100 -e Prupe.1G531400 -e Prupe.1G549600 Badami_LB_800CH_Clone15.fastqReadsPerGene.out.tab ; grep -n -e  Prupe.6G364900 -e Prupe.1G531100 -e Prupe.1G531400 -e Prupe.1G549600 Badami_LB_800CH_Clone16.fastqReadsPerGene.out.tab 
+
+
+grep -n -e  Prupe.6G364900 -e Prupe.1G531100 -e Prupe.1G531400 -e Prupe.1G549600 Bergeron_LB_400CH_Clone10.fastqReadsPerGene.out.tab ; grep -n -e  Prupe.6G364900 -e Prupe.1G531100 -e Prupe.1G531400 -e Prupe.1G549600 Bergeron_LB_400CH_Clone8.fastqReadsPerGene.out.tab ; grep -n -e  Prupe.6G364900 -e Prupe.1G531100 -e Prupe.1G531400 -e Prupe.1G549600 Bergeron_LB_400CH_Clone9.fastqReadsPerGene.out.tab ; grep -n -e  Prupe.6G364900 -e Prupe.1G531100 -e Prupe.1G531400 -e Prupe.1G549600 Bergeron_LB_800CH_Clone10.fastqReadsPerGene.out.tab ; grep -n -e  Prupe.6G364900 -e Prupe.1G531100 -e Prupe.1G531400 -e Prupe.1G549600 Bergeron_LB_800CH_Clone8.fastqReadsPerGene.out.tab ; grep -n -e  Prupe.6G364900 -e Prupe.1G531100 -e Prupe.1G531400 -e Prupe.1G549600 Bergeron_LB_800CH_Clone9.fastqReadsPerGene.out.tab
+
+```
+
+| Name                         |  Prupe.6G364900 (FT, 1 transcript) | Prupe.1G531100 (misannotated DAM1-3, 2 transcipts) |  Prupe.1G531400 (DAM4, 1 transcript) | Prupe.1G549600 (SEEDSTICK, 3 transcripts) |
+| ---------------------------- | ----------------------------------- | -------------------------------------------------- | ----------------------------------- |
+----------------------------------------- |
+| Badami_LB_400CH_Clone14      |   0 | 0 | 0 | 0 |    
+| Badami_LB_400CH_Clone15      | 0 | 0 | 0 | 0 | 
+| Badami_LB_400CH_Clone16      | 0 | 0 | 0 | 0 |
+| Badami_LB_800CH_Clone14      | 0 | 0 | 0 | 0 |
+| Badami_LB_800CH_Clone15      | 0 | 0 | 0 | 0 |
+| Badami_LB_800CH_Clone16      | 0 | 0 | 0 | 0 |
+| Bergeron_LB_400CH_Clone10    | 0 | 0 | 0 | 0 |
+| Bergeron_LB_400CH_Clone8     | 0 | 0 | 0 | 0 |
+| Bergeron_LB_400CH_Clone9     | 0 | 0 | 0 | 0 |
+| Bergeron_LB_800CH_Clone10    | 0 | 0 | 0 | 0 |
+| Bergeron_LB_800CH_Clone8     | 0 | 0 | 0 | 0 |
+| Bergeron_LB_800CH_Clone9     | 0 | 0 | 0 | 0 |
 
 
 
 ## Now Salmon!
+
+
 
