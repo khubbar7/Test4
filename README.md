@@ -122,9 +122,8 @@ grep -n -e  Prupe.6G364900 -e Prupe.1G531100 -e Prupe.1G531400 -e Prupe.1G549600
 
 ```
 
-| Name                         |  Prupe.6G364900 (FT, 1 transcript) | Prupe.1G531100 (misannotated DAM1-3, 2 transcipts) |  Prupe.1G531400 (DAM4, 1 transcript) | Prupe.1G549600 (SEEDSTICK, 3 transcripts) |
-| ---------------------------- | ----------------------------------- | -------------------------------------------------- | ----------------------------------- |
------------------------------------------ |
+| Name       |  Prupe.6G364900  | Prupe.1G531100  |  Prupe.1G531400 | Prupe.1G549600  |
+| ---------- | ---------- | ----------| -------- | ----------- |
 | Badami_LB_400CH_Clone14      |   0 | 0 | 0 | 0 |    
 | Badami_LB_400CH_Clone15      | 0 | 0 | 0 | 0 | 
 | Badami_LB_400CH_Clone16      | 0 | 0 | 0 | 0 |
