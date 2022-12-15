@@ -86,7 +86,7 @@ squeue -u khubbar7
 | Name                         |   # of reads     |
 | ---------------------------- | ---------------- |
 | Badami_LB_400CH_Clone14      | 23114385         |
-| Badami_LB_400CH_Clone15      |
+| Badami_LB_400CH_Clone15      | 21361266 |
 | Badami_LB_400CH_Clone16      |
 | Badami_LB_800CH_Clone14      |
 | Badami_LB_800CH_Clone15      |
@@ -102,7 +102,7 @@ squeue -u khubbar7
 |    	NAME                 | Uniquely mapped reads %	| % of reads mapped to multiple loci	| % of reads mapped to too many loci	| % of reads unmapped: too many mismatches	| % of reads unmapped: too short	| % of reads unmapped: other	| % of chimeric reads |	
 | ------------------------ | -----------------------	| ----------------------------------	| ----------------------------------	| ----------------------------------------	| ------------------------------	| --------------------------	| ------------------- |
 Badami_LB_400CH_Clone14    |	 194 | 		420983 | 481178 | 0 | 19928186 | 2283844 | 0 |
-Badami_LB_400CH_Clone15		 |			
+Badami_LB_400CH_Clone15		 |	407 | 195399 | 	148990 | 0 | 20703524 | 312946 | 0 | 
 Badami_LB_400CH_Clone16		 |		
 Badami_LB_800CH_Clone14		 |				
 Badami_LB_800CH_Clone15		 |			
