@@ -211,7 +211,7 @@ grep '^>' /lustre/isaac/proj/UTK0208/rnaseq/raw_data/salmon_transcripts_index/ |
 So i honestly got really mad that it was bugging at readtwofile so I just deleted it. and I gave it a lot more power. 
 
 ```
-nano qscript.qsh
+nano newscript.qsh
 ```
 
 In nano:
