@@ -87,11 +87,11 @@ squeue -u khubbar7
 | ---------------------------- | ---------------- |
 | Badami_LB_400CH_Clone14      | 23114385         |
 | Badami_LB_400CH_Clone15      | 21361266 |
-| Badami_LB_400CH_Clone16      |
-| Badami_LB_800CH_Clone14      |
-| Badami_LB_800CH_Clone15      |
-| Badami_LB_800CH_Clone16      |
-| Bergeron_LB_400CH_Clone10    |
+| Badami_LB_400CH_Clone16      | 20521394 | 
+| Badami_LB_800CH_Clone14      | 21748763 |
+| Badami_LB_800CH_Clone15      | 23354376 |
+| Badami_LB_800CH_Clone16      | 23243567 |
+| Bergeron_LB_400CH_Clone10    | 19242671 |
 | Bergeron_LB_400CH_Clone8     |
 | Bergeron_LB_400CH_Clone9     |
 | Bergeron_LB_800CH_Clone10    |
@@ -101,18 +101,18 @@ squeue -u khubbar7
 ##STAR								
 |    	NAME                 | Uniquely mapped reads %	| % of reads mapped to multiple loci	| % of reads mapped to too many loci	| % of reads unmapped: too many mismatches	| % of reads unmapped: too short	| % of reads unmapped: other	| % of chimeric reads |	
 | ------------------------ | -----------------------	| ----------------------------------	| ----------------------------------	| ----------------------------------------	| ------------------------------	| --------------------------	| ------------------- |
-Badami_LB_400CH_Clone14    |	 194 | 		420983 | 481178 | 0 | 19928186 | 2283844 | 0 |
-Badami_LB_400CH_Clone15		 |	407 | 195399 | 	148990 | 0 | 20703524 | 312946 | 0 | 
-Badami_LB_400CH_Clone16		 |		
-Badami_LB_800CH_Clone14		 |				
-Badami_LB_800CH_Clone15		 |			
-Badami_LB_800CH_Clone16		 |			
-Bergeron_LB_400CH_Clone10	 |				
-Bergeron_LB_400CH_Clone8	 |				
-Bergeron_LB_400CH_Clone9	 |				
-Bergeron_LB_800CH_Clone10	 |					
-Bergeron_LB_800CH_Clone8	 |				
-Bergeron_LB_800CH_Clone9	 |					
+Badami_LB_400CH_Clone14    |	0.00 | 1.82 | 2.08 | 0.00 | 86.22 | 9.88 | 0.00 |
+Badami_LB_400CH_Clone15		 |	0.00 | 0.91 | 0.70 | 0.00 | 96.92 | 1.47 | 0.00|
+Badami_LB_400CH_Clone16		 |  0.00 | 0.98 | 0.39 | 0.00 | 95.51 | 3.12 | 0.00 | 
+Badami_LB_800CH_Clone14		 | 0.00 | 1.32 | 1.34 | 0.00 | 95.71 | 1.62 | 0.00 |
+Badami_LB_800CH_Clone15		 |	0.00 | 0.99 | 0.70 | 0.00 | 97.28 | 1.03 | 0.00 |
+Badami_LB_800CH_Clone16		 |	0.00 | 1.02 | 0.48 | 0.00 | 95.50 | 3.00 | 0.00 |
+Bergeron_LB_400CH_Clone10	 |  0.00 | 1.31 | 1.75 | 0.00 | 95.15 | 1.80 | 0.00 |
+Bergeron_LB_400CH_Clone8	 | 0.00 | 0.90 | 0.44 | 0.00 | 96.32 | 2.35 | 0.00 |
+Bergeron_LB_400CH_Clone9	 |	0.00 | 1.00 | 0.52 | 0.00 | 94.40 | 4.07 | 0.00 | 			
+Bergeron_LB_800CH_Clone10	 | 0.00 | 1.59 | 0.77 | 0.00 | 91.82 | 5.82 | 0.00 |
+Bergeron_LB_800CH_Clone8	 | 0.00 | 0.97 | 0.49 | 0.00 | 97.97 | 0.65 | 0.00 | 		
+Bergeron_LB_800CH_Clone9	 |	0.00 | 1.11 | 0.69 | 0.00 | 94.49 | 3.71 | 0.00 |				
 
 
 
